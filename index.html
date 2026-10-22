@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gabriel Brito Braga — Engenharia de Software</title>
+  <meta name="description" content="Portfólio de Gabriel Brito Braga, estudante de Engenharia de Software. Skills, projetos e experiências." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23141414'/%3E%3Ctext x='32' y='42' font-family='Arial' font-size='28' font-weight='bold' fill='%23FF5A1F' text-anchor='middle'%3EGB%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <noscript><style>.reveal { opacity: 1; transform: none; }</style></noscript>
+</head>
+<body>
+
+  <header class="header" id="header">
+    <nav class="nav">
+      <a href="#inicio" class="nav__logo">Gabriel Brito<span>*</span></a>
+      <ul class="nav__list" id="nav-list">
+        <li><a href="#sobre" class="nav__link"><sup>001</sup> Sobre</a></li>
+        <li><a href="#skills" class="nav__link"><sup>002</sup> Skills</a></li>
+        <li><a href="#projetos" class="nav__link"><sup>003</sup> Projetos</a></li>
+        <li><a href="#experiencia" class="nav__link"><sup>004</sup> Experiência</a></li>
+        <li><a href="#contato" class="nav__link nav__link--hollow"><sup>005</sup> Contato</a></li>
+      </ul>
+      <button class="nav__toggle" id="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="inicio">
+      <div class="hero__media">
+        <img src="assets/foto-hero.jpg" alt="Gabriel tocando em um culto com a banda da igreja, luzes verdes" id="hero-img" />
+      </div>
+      <div class="hero__overlay">
+        <p class="hero__kicker reveal">portfólio — 2026</p>
+        <h1 class="hero__title">
+          <em class="reveal">olá, eu sou</em>
+          <span class="hero__line reveal">Gabriel Brito</span>
+          <span class="hero__line hero__line--indent reveal">Braga</span>
+        </h1>
+        <p class="hero__tags reveal">Engenharia de Software · Python · JavaScript</p>
+      </div>
+      <a href="#sobre" class="hero__scroll mono reveal">( role para explorar <span class="arrow">↓</span> )</a>
+    </section>
+
+    <!-- ============ SOBRE ============ -->
+    <section class="section sobre" id="sobre">
+      <div class="container">
+        <div class="section__label mono reveal"><sup>001</sup> — sobre mim</div>
+        <div class="sobre__grid">
+          <div class="sobre__text">
+            <p class="sobre__lead reveal">
+              <em>Da rotina administrativa ao código:</em> estou construindo minha
+              trajetória em Engenharia de Software um projeto de cada vez.
+            </p>
+            <p class="reveal">
+              Meu nome é <strong>Gabriel Brito Braga</strong>, sou estudante de Engenharia de
+              Software e trabalho como <strong>assistente administrativo</strong> em uma empresa
+              de crédito imobiliário. Essa rotina me ensinou organização, responsabilidade e a
+              importância de cada detalhe — habilidades que levo para o mundo da programação.
+            </p>
+            <p class="reveal">
+              Na graduação, descobri minha paixão por desenvolvimento através de
+              <strong>Python</strong> e <strong>JavaScript</strong>. Cada trabalho acadêmico é
+              uma chance de transformar teoria em algo real — e este portfólio é a prova
+              dessa evolução.
+            </p>
+            <p class="reveal">
+              Fora das telas, sou <strong>músico</strong> e toco na <strong>banda da minha
+              igreja</strong>. A música me ensinou a ouvir o conjunto antes da própria parte —
+              e a minha <strong>fé cristã</strong> é a base de tudo: o que dá sentido ao que
+              eu construo, tanto no palco quanto no código.
+            </p>
+          </div>
+          <figure class="sobre__media reveal">
+            <img src="assets/foto-gabriel.jpg" alt="Gabriel Brito Braga em um parque ao entardecer" />
+            <figcaption class="mono">fig. 01 — o autor do código, em modo offline</figcaption>
+          </figure>
+        </div>
+
+        <div class="credits reveal">
+          <div class="credits__item">
+            <span class="credits__label mono">nome</span>
+            <span class="credits__value">Gabriel Brito Braga</span>
+          </div>
+          <div class="credits__item">
+            <span class="credits__label mono">formação</span>
+            <span class="credits__value">Engenharia de Software</span>
+          </div>
+          <div class="credits__item">
+            <span class="credits__label mono">status</span>
+            <span class="credits__value">aberto a estágios &amp; projetos</span>
+          </div>
+          <div class="credits__item">
+            <span class="credits__label mono">contato</span>
+            <span class="credits__value">gabriel.bragabrito@gmail.com</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="section__label mono reveal"><sup>002</sup> — skills</div>
+        <h2 class="section__headline reveal"><em>Ferramentas que</em> estou dominando</h2>
+        <div class="skills__credits">
+          <div class="skill reveal">
+            <span class="skill__num mono">a.</span>
+            <h3 class="skill__label mono">linguagens</h3>
+            <p class="skill__value"><em>Python, JavaScript</em> — lógica, estruturas de dados e automação nos trabalhos da faculdade.</p>
+          </div>
+          <div class="skill reveal">
+            <span class="skill__num mono">b.</span>
+            <h3 class="skill__label mono">front-end</h3>
+            <p class="skill__value"><em>HTML, CSS</em> — estrutura semântica e estilo: a base deste portfólio que você está vendo.</p>
+          </div>
+          <div class="skill reveal">
+            <span class="skill__num mono">c.</span>
+            <h3 class="skill__label mono">em estudo</h3>
+            <p class="skill__value"><em>DOM, eventos, Git</em> — interatividade em páginas web e versionamento de código.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJETOS ============ -->
+    <section class="section projetos" id="projetos">
+      <div class="container">
+        <div class="section__label mono reveal"><sup>003</sup> — projetos</div>
+        <h2 class="section__headline reveal"><em>Trabalhos que</em> marcaram meu ano</h2>
+      </div>
+      <div class="works">
+        <article class="work reveal">
+          <span class="mono work__num">nº 01 — site</span>
+          <div class="work__body">
+            <h3><em>Terravis</em></h3>
+            <p>Site para um trabalho da faculdade: usar um satélite no agronegócio — previsões do
+            estado da vegetação para ajudar quem trabalha no campo a decidir se está bom para plantar.</p>
+          </div>
+          <span class="work__arrow" aria-hidden="true">→</span>
+        </article>
+        <article class="work reveal">
+          <span class="mono work__num">nº 02 — html / css / js</span>
+          <div class="work__body">
+            <h3><em>Portfólio Interativo</em></h3>
+            <p>Este próprio site: landing page responsiva com animações de scroll e design editorial.</p>
+          </div>
+          <span class="work__arrow" aria-hidden="true">→</span>
+        </article>
+        <article class="work reveal">
+          <span class="mono work__num">nº 03 — site</span>
+          <div class="work__body">
+            <h3><em>OPTICODE</em></h3>
+            <p>Site de divulgação que desenvolvi como peça de propaganda para o projeto da Jovi.</p>
+          </div>
+          <span class="work__arrow" aria-hidden="true">→</span>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIÊNCIA ============ -->
+    <section class="section experiencia" id="experiencia">
+      <div class="container">
+        <div class="section__label mono reveal"><sup>004</sup> — experiência</div>
+        <h2 class="section__headline reveal"><em>Minha</em> trajetória</h2>
+        <div class="exp__list">
+          <article class="exp reveal">
+            <span class="exp__num" aria-hidden="true">01</span>
+            <div class="exp__body">
+              <span class="mono exp__date">atual</span>
+              <h3><em>Assistente Administrativo</em></h3>
+              <span class="exp__place mono">empresa de crédito imobiliário</span>
+              <p>
+                Rotinas administrativas e apoio à gestão de contratos. Organização de documentos,
+                atendimento e processos — experiência que desenvolve disciplina e atenção aos
+                detalhes, agora aplicadas à programação.
+              </p>
+            </div>
+          </article>
+          <article class="exp reveal">
+            <span class="exp__num" aria-hidden="true">02</span>
+            <div class="exp__body">
+              <span class="mono exp__date">em andamento</span>
+              <h3><em>Graduação em Engenharia de Software</em></h3>
+              <span class="exp__place mono">ensino superior</span>
+              <p>
+                Formação com foco em desenvolvimento, lógica e arquitetura. Projetos acadêmicos
+                em Python e JavaScript — incluindo este portfólio como exercício de front-end
+                e comunicação com IA.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTATO ============ -->
+    <footer class="contato" id="contato">
+      <div class="contato__grid">
+        <div class="contato__col">
+          <span class="contato__logo">Gabriel Brito<span>*</span></span>
+          <p class="mono contato__meta">portfólio — 2026<br />feito com html, css &amp; js</p>
+        </div>
+        <div class="contato__col">
+          <span class="contato__title"><em>Contato</em></span>
+          <ul class="contato__links mono">
+            <li><a href="mailto:gabriel.bragabrito@gmail.com">Email ↗</a></li>
+            <li><a href="https://github.com/gabrielbritobraga" target="_blank" rel="noopener">GitHub ↗</a></li>
+          </ul>
+        </div>
+        <div class="contato__col contato__col--cta">
+          <a href="mailto:gabriel.bragabrito@gmail.com" class="contato__cta"><em>Vamos construir algo juntos?</em><span class="arrow">↗</span></a>
+        </div>
+      </div>
+      <div class="contato__bottom mono">
+        <span>© <span id="year"></span> Gabriel Brito Braga</span>
+        <a href="#inicio">voltar ao topo ↑</a>
+      </div>
+    </footer>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
