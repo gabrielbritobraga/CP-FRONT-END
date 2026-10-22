@@ -23,4 +23,6 @@ correções — está documentado em [PROCESSO.md](PROCESSO.md).
 
 ## Deploy
 
-*(link do deploy — preencher após publicar)*
+Site no ar em: https://cp-frontend-braga-77c9.vercel.app
+
+*(deploy contínuo via Vercel — todo push na branch `main` atualiza o site)*

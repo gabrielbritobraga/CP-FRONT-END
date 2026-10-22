@@ -211,8 +211,8 @@ A ordem segue a narrativa de uma revista: **capa → matéria principal → seç
 
 ## 3.5 — Resultado final
 
-- **Repositório:** *(preencher — ex.: https://github.com/gabrielbritobraga/portfolio)*
-- **Deploy:** *(preencher — ex.: https://portfolio-gabriel.vercel.app)*
+- **Repositório:** https://github.com/gabrielbritobraga/CP-FRONT-END
+- **Deploy:** https://cp-frontend-braga-77c9.vercel.app
 
 ### Reflexão
 
