@@ -289,23 +289,17 @@ ul { list-style: none; }
 .works { border-top: var(--line); }
 .work {
   display: grid;
-  grid-template-columns: 220px 1fr auto;
+  grid-template-columns: 160px 1fr;
   align-items: center;
-  gap: clamp(1.2rem, 4vw, 3.5rem);
+  gap: clamp(1rem, 2.5vw, 2rem);
   padding: 2.2rem 0;
   border-bottom: var(--line);
   transition: padding-left var(--transition);
 }
 .work:hover { padding-left: 1rem; }
-.work__num { color: var(--coral); }
+.work__num { color: var(--ink); }
 .work__body h3 { font-family: var(--serif); font-size: clamp(1.7rem, 3.4vw, 2.6rem); font-weight: 560; line-height: 1.05; }
 .work__body p { color: var(--smoke); font-size: 0.95rem; margin-top: 0.45rem; max-width: 56ch; }
-.work__arrow {
-  font-size: 1.8rem;
-  color: var(--ink);
-  transition: transform var(--transition), color var(--transition);
-}
-.work:hover .work__arrow { transform: translateX(8px); color: var(--coral); }
 
 /* ---------- Experiência ---------- */
 .exp__list { border-top: var(--line); }
@@ -419,8 +413,8 @@ ul { list-style: none; }
   .credits__item:nth-child(odd) { border-left: 0; padding-left: 0; }
   .skills__credits { grid-template-columns: 1fr; }
   .skill { border-left: 0; padding-left: 0; }
-  .work { grid-template-columns: 1fr auto; }
-  .work__num { grid-column: 1 / -1; margin-bottom: -0.6rem; }
+  .work { grid-template-columns: 1fr; }
+  .work__num { margin-bottom: -0.6rem; }
   .contato__grid { grid-template-columns: 1fr 1fr; }
   .contato__col--cta { grid-column: 1 / -1; justify-content: flex-start; }
   .contato__cta { text-align: left; }
