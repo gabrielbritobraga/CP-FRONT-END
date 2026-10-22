@@ -414,8 +414,7 @@ ul { list-style: none; }
 
 /* ---------- Responsivo ---------- */
 @media (max-width: 960px) {
-  .sobre__grid { grid-template-columns: 1fr; }
-  .sobre__media { max-width: 420px; }
+  .sobre__grid { gap: clamp(1.4rem, 3vw, 2.5rem); }
   .credits { grid-template-columns: 1fr 1fr; }
   .credits__item:nth-child(odd) { border-left: 0; padding-left: 0; }
   .skills__credits { grid-template-columns: 1fr; }
@@ -425,6 +424,11 @@ ul { list-style: none; }
   .contato__grid { grid-template-columns: 1fr 1fr; }
   .contato__col--cta { grid-column: 1 / -1; justify-content: flex-start; }
   .contato__cta { text-align: left; }
+}
+
+@media (max-width: 720px) {
+  .sobre__grid { grid-template-columns: 1fr; }
+  .sobre__media { max-width: 420px; }
 }
 
 @media (max-width: 640px) {
